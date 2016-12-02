@@ -1,0 +1,19 @@
+{
+  "properties": [
+    {
+      "name": "tomcat.ajp.enabled",
+      "type": "java.lang.Boolean",
+      "description": "Determines whether the AJP Connector must be used"
+    },
+    {
+      "name": "tomcat.ajp.remoteAuthentication",
+      "type": "java.lang.Boolean",
+      "description": "Determines whether Remote Authentication is enabled"
+    },
+    {
+      "name": "tomcat.ajp.port",
+      "type": "java.lang.String",
+      "description": "The port the AJP Connector will listen to"
+    }
+  ]
+}
